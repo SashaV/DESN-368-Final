@@ -6,9 +6,9 @@
     
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	
-	<link rel="stylesheet" href="../Final/css/normalize.css" />
-	<link rel="stylesheet" href="../Final/css/styles.css" />
-	<link rel="stylesheet" href="../Final/css/960-12-col.css" />	
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/960-12-col.css" />	
 
 </head>
 <body>
@@ -32,25 +32,27 @@
 			  <li><img src="img/logo24.png" alt="HTML Logo" /></li> -->
 			  <li id="home"><a href="index.html">HOME</a></li>
 			  <li id="resume"><a href="Resume.html">RESUME</a></li>
-			  <li id="portfolio"><a href="portfolio.html">PORTFOLIO</a></li>
+			  <li id="portfolio"><a href="Portfolio.html">PORTFOLIO</a></li>
 			</ul>
            </nav>
            </div>
 		
 <!-- A little About Me -->
-<article class="grid_4">
+<div id="about-wrap">
+	<article class="grid_4">
 		<h2> A Little About Me </h2>
    			 <p> Hello! I'm Sasha Vogele, and I enjoy communicating through effectively combining words and design.
    			 </p>
-            </article>
+  </article>
+            
             
 <article class="grid_8">
-		<img src="../final/img/pic.jpg" width= "585px" height "349px">
-		</article>			
+		<img id="image" src="img/pic.jpg">
+		</article>		
+</div>	
 
+<!-- Home Body -->
 <article class="grid_6">			
-	<p>Hey!</p>
-
 <p>My name's Sasha, and I'm about to graduate with a B.A. in Technical Communications from Eastern Washington University. I choose a Technical Communications degree because I like to write--and write well. And not just one type of writing either, but all types such as professional, news, grant, procedural, and promotional.</p> 
 
 <p>In addition to effectively communicating through writing, my degree and experience includes knowledge of how to reach viewers through logical and aesthetically pleasing designs. Nobody wants to spend their time looking at documents that aren't legible and interesting to see, so words and design should always be one with the other. </p>
@@ -61,16 +63,40 @@
 
 </article>	
 
+<!-- Contact Form -->	
 <article class="grid_6">			
-	<p>Insert contact form here</p>
+    <h2>Contact Form</h2>
+	
+	<form class="form">
+		
+		<p class="name">
+			<input type="text" name="name" id="name" placeholder="John Doe" />
+			<label for="name">Name</label>
+		</p>
+		
+		<p class="email">
+			<input type="text" name="email" id="email" placeholder="mail@example.com" />
+			<label for="email">Email</label>
+		</p>
+		
+			
+		<p class="text">
+			<textarea name="text" placeholder="Write something to me" /></textarea>
+		</p>
+		
+		<p class="submit">
+			<input type="submit" value="Send" />
+		</p>
+	</form>
+    
 
 </article>		
 		
 <!-- Footer -->	
             
-<footer class="grid_12">	
+<footer class="grid_6">	
 			<p>
-         		Insert Text Here</p>	
+         		&#169 2013 &#124; Sasha A. Vogele &#124; Web Design</p>	
 	</footer>	
     
 	
