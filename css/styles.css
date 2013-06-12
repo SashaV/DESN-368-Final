@@ -52,8 +52,12 @@ nav a:link {
 	height: 369px;
 	}
 
-#resume {
-	max-wdith: 960px;
+#jobs {
+	max-width: 800px;
+}
+
+#LOTO-text {
+	clear: left;
 }
 
 footer {
