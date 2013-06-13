@@ -2,26 +2,51 @@ h1 {
 	font-family: 'Lobster', cursive;
 	color: white;
 	font-size: 36px;
-}
+	margin-left: 20px;
+	}
 
 h2 {
-	font-family: 'Book Antiqua', serif;
-	color: white;
-	font-size: 24px;
+	font-family:'Lobster', cursive;
+	color: #7A7A7A;
+	font-size: 22px;
+	margin-left
+	}
+	
+p {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1.40px;
+	color: black;
+	font-size: 13px;
+	line-height: 25px;
 }
+
+#divider p {
+	margin: 60px 0 60px 0;
+	font-size: 32px;
+	color: #F39;
+	text-align: center;
+	}
+
+#divider p:hover {
+	color: lightblue;
+}
+
+nav ul {
+	display: inline;
+	}
 
 nav li {
 	float: left;
 	list-style: none;
 	margin: 0px 10px 0px 10px;
-	font-family: 'Book Antiqua', serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #7A7A7A;
-	font-size: 18px;
-}
+	font-size: 20px;
+	}
 
 nav a:link {
 	text-decoration: none;
-}
+	}
 
 /* Primary Header */
 	
@@ -29,16 +54,19 @@ nav a:link {
 	background: #303D4B;
 	min-width: 960px;
 	height: 95px;
-}
+	}
 
-/* Primary Navigation */
+
+/* Navigation */
 
 #nav-wrap {
 	background: #ECECEC;
-	min-width: 960px;
-	height: 60px;
+	max-width: 960px;
+	height: 50px;
 	margin: 7px 0px 7px 0px;
-}
+	padding-top: 22px;
+	padding-left: 11px;
+	}
 
 #about-wrap {
 	background: #303D4B;
@@ -46,25 +74,39 @@ nav a:link {
 	height: 369px;
 	}
 	
+nav a:hover, active {
+	color: #F39;
+}
+
+/*  */
+
+blockquote {
+	color: white;
+	font-size: 30px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	letter spacing: 1.4px;
+	text aligned: center;
+	margin-top: 90px;
+}
+	
 #image {
 	float: right;
 	width: 500px;
 	height: 369px;
+	margin-right: -10px;
 	}
-
-#jobs {
-	max-width: 800px;
-}
-
-#LOTO-text {
-	clear: left;
-}
-
+	
+	
+/* Footer */
 footer {
-	align: center;	
+	text-align: center;	
 	margin-top: 107px;
 	padding-top: 30px;
-}
+	}
+footer a {
+	text-decoration: none;
+	}
 
 /* Contact Form
 	Theme Name: CSS3 Contact Form
@@ -85,7 +127,7 @@ body {
 	font-style: Verdana, Tahoma, sans-serif;
 }
 
-h2 {
+h3 {
 	margin-bottom: 20px;
 	color: #474E69;
 }
@@ -136,4 +178,25 @@ input:focus, textarea:focus {
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;		
+}
+
+/* Portfolio Images */
+
+#poster {
+	float: left;
+}
+
+#jobs {
+	max-width: 800px;
+	margin-left: 150px;
+	margin-top: 25px;
+	border:1px solid #021a40
+	}
+
+#LOTO-text {
+	clear: left;
+	}
+	
+#ppic, #Poster-pic {
+	border:1px solid #021a40
 }
